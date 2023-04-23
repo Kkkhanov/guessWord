@@ -1,0 +1,91 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    max-width: 1000px;
+}
+.wheel {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+    overflow: hidden;
+
+    background-image: conic-gradient(red 16.67%, green 0 33.33%, blue 0 50%, yellow 0 66.67%, cyan 0 83.33%, orange 0);
+}
+
+.arrow {
+    background: url("https://cdn-icons-png.flaticon.com/512/2223/2223615.png");
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 225px;
+    top: 340px;
+    background-size: 100%;
+}
+
+.spin {
+    margin-top: 20px;
+}
+
+.result {
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.rotating {
+    transition: all 3s;
+    transition-timing: ease-in-out;
+}
+.section2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section3{
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    background: url("https://v1.popcornnews.ru/k2/news/1200/upload/news/502357507225.jpg") no-repeat;
+    width: 500px;
+    height: 300px;
+    background-size: 100%;
+    position: relative;
+}
+#hed{
+    position: absolute;
+    left: 150px;
+    bottom: 150px;
+}
+#banka{
+    position: absolute;
+    top: 85px;
+    left: 320px;
+}
+#glas{
+    position: absolute;
+    left: 150px;
+    top: 100px;
+}
+#sw{
+    position: absolute;
+    top: 130px;
+}
+li{
+    margin: 20px;
+    list-style-type: none;
+}
+button{
+    margin-left: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: cadetblue;
+}
+input{
+    border-radius: 10px;
+    height: 20px;
+}
